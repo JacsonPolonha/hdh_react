@@ -6,4 +6,13 @@ export const MainStyles = styled.main`
     align-items: center;
     width: 100%;
     gap: 10px;
+
+    @media (min-width: 768px) {
+       width: 70%;
+       margin: auto;
+    }
+
+    @media (min-width: 1024px) {
+        width: 60%;
+    }
 `

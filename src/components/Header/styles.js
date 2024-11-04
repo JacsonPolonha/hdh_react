@@ -9,7 +9,7 @@ const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 10px 20px;
   background-color: #f5f5f5;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 
@@ -63,6 +63,8 @@ const Menu = styled.ul`
   li {
     padding: 10px;
     border-bottom: 1px solid #ddd;
+    color: #000;
+    font-size: 1.2rem;
 
     &:last-child {
       border-bottom: none;
@@ -118,8 +120,8 @@ const HamburgerMenu = () => {
         </HamburgerButton>
         <Menu open={open}>
         <Link to="/"><li>Home</li></Link>
-          <li>About</li>
-          <li>Services</li>
+        <Link to="about"><li>About</li></Link>
+          {/* <li>Services</li> */}
           <li>Contact</li>
         </Menu>
       </MenuContainer>

@@ -13,13 +13,13 @@ const Home = () => {
             <Container>
                 <HomeStyle>
                     <Article>
-                        <Images src="/imagens/HondaTuruna/foto1.jpeg" />
+                        <Images src="/imagens/HondaTuruna/image1.jpeg" alt="Texto" />
                         <h1>Honda Turuna</h1>
                         <p>Pequeno texto com uma descrição sobre o artigo</p>
                         <BtnMore to="/turuna" />
                     </Article>
                     <Article>
-                        <Images src="/imagens/HondaTuruna/foto1.jpeg" />
+                        <Images src="/imagens/HondaTuruna/foto1.jpeg" alt="Texto" />
                         <h1>Honda Turuna</h1>
                         <p>Pequeno texto com uma descrição sobre o artigo</p>
                         <BtnMore to="/turuna" />
